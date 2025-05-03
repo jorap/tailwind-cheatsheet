@@ -1,0 +1,3165 @@
+[
+  {
+    "title": "Layout",
+    "children": [
+      {
+        "title": "Container",
+        "url": "https://tailwindcss-v0.netlify.app//docs/container",
+        "description": "A component for fixing an element's width to the current breakpoint.",
+        "table": [
+          {
+            "class": "container",
+            "properties": "none",
+            "value": "width: 100%;"
+          },
+          {
+            "class": "",
+            "properties": "sm (576px)",
+            "value": "max-width: 576px;"
+          },
+          {
+            "class": "",
+            "properties": "md (768px)",
+            "value": "max-width: 768px;"
+          },
+          {
+            "class": "",
+            "properties": "lg (992px)",
+            "value": "max-width: 992px;"
+          },
+          {
+            "class": "",
+            "properties": "xl (1200px)",
+            "value": "max-width: 1200px;"
+          }
+        ]
+      },
+      {
+        "title": "Display",
+        "url": "https://tailwindcss-v0.netlify.app//docs/display",
+        "description": "Utilities for controlling the display box type of an element.",
+        "table": [
+          {
+            "class": "block",
+            "properties": "display: block;",
+            "value": ""
+          },
+          {
+            "class": "inline-block",
+            "properties": "display: inline-block;",
+            "value": ""
+          },
+          {
+            "class": "inline",
+            "properties": "display: inline;",
+            "value": ""
+          },
+          {
+            "class": "table",
+            "properties": "display: table;",
+            "value": ""
+          },
+          {
+            "class": "table-row",
+            "properties": "display: table-row;",
+            "value": ""
+          },
+          {
+            "class": "table-cell",
+            "properties": "display: table-cell;",
+            "value": ""
+          },
+          {
+            "class": "hidden",
+            "properties": "display: none;",
+            "value": ""
+          },
+          {
+            "class": "flex",
+            "properties": "display: flex;",
+            "value": ""
+          },
+          {
+            "class": "inline-flex",
+            "properties": "display: inline-flex;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Floats",
+        "url": "https://tailwindcss-v0.netlify.app//docs/floats",
+        "description": "Utilities for controlling the wrapping of content around an element.",
+        "table": [
+          {
+            "class": "float-right",
+            "properties": "float: right;",
+            "value": ""
+          },
+          {
+            "class": "float-left",
+            "properties": "float: left;",
+            "value": ""
+          },
+          {
+            "class": "float-none",
+            "properties": "float: none;",
+            "value": ""
+          },
+          {
+            "class": "clearfix",
+            "properties": "&::after {\n  content: \"\";\n  display: table;\n  clear: both;\n}",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Object Fit",
+        "url": "https://tailwindcss-v0.netlify.app//docs/object-fit",
+        "description": "Utilities for controlling the element's respond to the height and width of its content box.",
+        "table": [
+          {
+            "class": "object-contain",
+            "properties": "object-fit: contain;",
+            "value": ""
+          },
+          {
+            "class": "object-cover",
+            "properties": "object-fit: cover;",
+            "value": ""
+          },
+          {
+            "class": "object-fill",
+            "properties": "object-fit: fill;",
+            "value": ""
+          },
+          {
+            "class": "object-none",
+            "properties": "object-fit: none;",
+            "value": ""
+          },
+          {
+            "class": "object-scale-down",
+            "properties": "object-fit: scale-down;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Object Position",
+        "url": "https://tailwindcss-v0.netlify.app//docs/object-position",
+        "description": "Utilities for controlling the element's respond to the height and width of its content box.",
+        "table": [
+          {
+            "class": "object-bottom",
+            "properties": "object-position: bottom;",
+            "value": ""
+          },
+          {
+            "class": "object-center",
+            "properties": "object-position: center;",
+            "value": ""
+          },
+          {
+            "class": "object-left",
+            "properties": "object-position: left;",
+            "value": ""
+          },
+          {
+            "class": "object-left-bottom",
+            "properties": "object-position: left bottom;",
+            "value": ""
+          },
+          {
+            "class": "object-left-top",
+            "properties": "object-position: left top;",
+            "value": ""
+          },
+          {
+            "class": "object-right",
+            "properties": "object-position: right;",
+            "value": ""
+          },
+          {
+            "class": "object-right-bottom",
+            "properties": "object-position: right bottom;",
+            "value": ""
+          },
+          {
+            "class": "object-right-top",
+            "properties": "object-position: right top;",
+            "value": ""
+          },
+          {
+            "class": "object-top",
+            "properties": "object-position: top;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Overflow",
+        "url": "https://tailwindcss-v0.netlify.app//docs/overflow",
+        "description": "Utilities for controlling how an element handles content that is too large for the container.",
+        "table": [
+          {
+            "class": "overflow-auto",
+            "properties": "overflow: auto;",
+            "value": ""
+          },
+          {
+            "class": "overflow-hidden",
+            "properties": "overflow: hidden;",
+            "value": ""
+          },
+          {
+            "class": "overflow-visible",
+            "properties": "overflow: visible;",
+            "value": ""
+          },
+          {
+            "class": "overflow-scroll",
+            "properties": "overflow: scroll;",
+            "value": ""
+          },
+          {
+            "class": "overflow-x-auto",
+            "properties": "overflow-x: auto;",
+            "value": ""
+          },
+          {
+            "class": "overflow-y-auto",
+            "properties": "overflow-y: auto;",
+            "value": ""
+          },
+          {
+            "class": "overflow-x-hidden",
+            "properties": "overflow-x: hidden;",
+            "value": ""
+          },
+          {
+            "class": "overflow-y-hidden",
+            "properties": "overflow-y: hidden;",
+            "value": ""
+          },
+          {
+            "class": "overflow-x-visible",
+            "properties": "overflow-x: visible;",
+            "value": ""
+          },
+          {
+            "class": "overflow-y-visible",
+            "properties": "overflow-y: visible;",
+            "value": ""
+          },
+          {
+            "class": "overflow-x-scroll",
+            "properties": "overflow-x: scroll;",
+            "value": ""
+          },
+          {
+            "class": "overflow-y-scroll",
+            "properties": "overflow-y: scroll;",
+            "value": ""
+          },
+          {
+            "class": "scrolling-touch",
+            "properties": "-webkit-overflow-scrolling: touch;",
+            "value": ""
+          },
+          {
+            "class": "scrolling-auto",
+            "properties": "-webkit-overflow-scrolling: auto;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Position",
+        "url": "https://tailwindcss-v0.netlify.app//docs/positioning",
+        "description": "Utilities for controlling how an element is positioned in the DOM.",
+        "table": [
+          {
+            "class": "static",
+            "properties": "position: static;",
+            "value": ""
+          },
+          {
+            "class": "fixed",
+            "properties": "position: fixed;",
+            "value": ""
+          },
+          {
+            "class": "absolute",
+            "properties": "position: absolute;",
+            "value": ""
+          },
+          {
+            "class": "relative",
+            "properties": "position: relative;",
+            "value": ""
+          },
+          {
+            "class": "sticky",
+            "properties": "position: sticky;",
+            "value": ""
+          },
+          {
+            "class": "pin-t",
+            "properties": "top: 0;",
+            "value": ""
+          },
+          {
+            "class": "pin-r",
+            "properties": "right: 0;",
+            "value": ""
+          },
+          {
+            "class": "pin-b",
+            "properties": "bottom: 0;",
+            "value": ""
+          },
+          {
+            "class": "pin-l",
+            "properties": "left: 0;",
+            "value": ""
+          },
+          {
+            "class": "pin-y",
+            "properties": "top: 0;\nbottom: 0;",
+            "value": ""
+          },
+          {
+            "class": "pin-x",
+            "properties": "right: 0;\nleft: 0;",
+            "value": ""
+          },
+          {
+            "class": "pin",
+            "properties": "top: 0;\nright: 0;\nbottom: 0;\nleft: 0;",
+            "value": ""
+          },
+          {
+            "class": "pin-none",
+            "properties": "top: auto;\nright: auto;\nbottom: auto;\nleft: auto;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Visibility",
+        "url": "https://tailwindcss-v0.netlify.app//docs/visibility",
+        "description": "Utilities for controlling the visibility of an element.",
+        "table": [
+          {
+            "class": "visible",
+            "properties": "visibility: visible;",
+            "value": ""
+          },
+          {
+            "class": "invisible",
+            "properties": "visibility: hidden;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Z-Index",
+        "url": "https://tailwindcss-v0.netlify.app//docs/z-index",
+        "description": "Utilities for controlling the stack order of an element.",
+        "table": [
+          {
+            "class": "z-0",
+            "properties": "z-index: 0;",
+            "value": ""
+          },
+          {
+            "class": "z-10",
+            "properties": "z-index: 10;",
+            "value": ""
+          },
+          {
+            "class": "z-20",
+            "properties": "z-index: 20;",
+            "value": ""
+          },
+          {
+            "class": "z-30",
+            "properties": "z-index: 30;",
+            "value": ""
+          },
+          {
+            "class": "z-40",
+            "properties": "z-index: 40;",
+            "value": ""
+          },
+          {
+            "class": "z-50",
+            "properties": "z-index: 50;",
+            "value": ""
+          },
+          {
+            "class": "z-auto",
+            "properties": "z-index: auto;",
+            "value": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Typography",
+    "children": [
+      {
+        "title": "Color",
+        "url": "https://tailwindcss-v0.netlify.app//docs/text-color",
+        "description": "Utilities for controlling the text color of an element.",
+        "table": [
+          {
+            "class": "text-transparent",
+            "properties": "color: transparent;",
+            "value": ""
+          },
+          {
+            "class": "text-black",
+            "properties": "color: #22292f;",
+            "value": ""
+          },
+          {
+            "class": "text-grey-darkest",
+            "properties": "color: #3d4852;",
+            "value": ""
+          },
+          {
+            "class": "text-grey-darker",
+            "properties": "color: #606f7b;",
+            "value": ""
+          },
+          {
+            "class": "text-grey-dark",
+            "properties": "color: #8795a1;",
+            "value": ""
+          },
+          {
+            "class": "text-grey",
+            "properties": "color: #b8c2cc;",
+            "value": ""
+          },
+          {
+            "class": "text-grey-light",
+            "properties": "color: #dae1e7;",
+            "value": ""
+          },
+          {
+            "class": "text-grey-lighter",
+            "properties": "color: #f1f5f8;",
+            "value": ""
+          },
+          {
+            "class": "text-grey-lightest",
+            "properties": "color: #f8fafc;",
+            "value": ""
+          },
+          {
+            "class": "text-white",
+            "properties": "color: #ffffff;",
+            "value": ""
+          },
+          {
+            "class": "text-red-darkest",
+            "properties": "color: #3b0d0c;",
+            "value": ""
+          },
+          {
+            "class": "text-red-darker",
+            "properties": "color: #621b18;",
+            "value": ""
+          },
+          {
+            "class": "text-red-dark",
+            "properties": "color: #cc1f1a;",
+            "value": ""
+          },
+          {
+            "class": "text-red",
+            "properties": "color: #e3342f;",
+            "value": ""
+          },
+          {
+            "class": "text-red-light",
+            "properties": "color: #ef5753;",
+            "value": ""
+          },
+          {
+            "class": "text-red-lighter",
+            "properties": "color: #f9acaa;",
+            "value": ""
+          },
+          {
+            "class": "text-red-lightest",
+            "properties": "color: #fcebea;",
+            "value": ""
+          },
+          {
+            "class": "text-orange-darkest",
+            "properties": "color: #462a16;",
+            "value": ""
+          },
+          {
+            "class": "text-orange-darker",
+            "properties": "color: #613b1f;",
+            "value": ""
+          },
+          {
+            "class": "text-orange-dark",
+            "properties": "color: #de751f;",
+            "value": ""
+          },
+          {
+            "class": "text-orange",
+            "properties": "color: #f6993f;",
+            "value": ""
+          },
+          {
+            "class": "text-orange-light",
+            "properties": "color: #faad63;",
+            "value": ""
+          },
+          {
+            "class": "text-orange-lighter",
+            "properties": "color: #fcd9b6;",
+            "value": ""
+          },
+          {
+            "class": "text-orange-lightest",
+            "properties": "color: #fff5eb;",
+            "value": ""
+          },
+          {
+            "class": "text-yellow-darkest",
+            "properties": "color: #453411;",
+            "value": ""
+          },
+          {
+            "class": "text-yellow-darker",
+            "properties": "color: #684f1d;",
+            "value": ""
+          },
+          {
+            "class": "text-yellow-dark",
+            "properties": "color: #f2d024;",
+            "value": ""
+          },
+          {
+            "class": "text-yellow",
+            "properties": "color: #ffed4a;",
+            "value": ""
+          },
+          {
+            "class": "text-yellow-light",
+            "properties": "color: #fff382;",
+            "value": ""
+          },
+          {
+            "class": "text-yellow-lighter",
+            "properties": "color: #fff9c2;",
+            "value": ""
+          },
+          {
+            "class": "text-yellow-lightest",
+            "properties": "color: #fcfbeb;",
+            "value": ""
+          },
+          {
+            "class": "text-green-darkest",
+            "properties": "color: #0f2f21;",
+            "value": ""
+          },
+          {
+            "class": "text-green-darker",
+            "properties": "color: #1a4731;",
+            "value": ""
+          },
+          {
+            "class": "text-green-dark",
+            "properties": "color: #1f9d55;",
+            "value": ""
+          },
+          {
+            "class": "text-green",
+            "properties": "color: #38c172;",
+            "value": ""
+          },
+          {
+            "class": "text-green-light",
+            "properties": "color: #51d88a;",
+            "value": ""
+          },
+          {
+            "class": "text-green-lighter",
+            "properties": "color: #a2f5bf;",
+            "value": ""
+          },
+          {
+            "class": "text-green-lightest",
+            "properties": "color: #e3fcec;",
+            "value": ""
+          },
+          {
+            "class": "text-teal-darkest",
+            "properties": "color: #0d3331;",
+            "value": ""
+          },
+          {
+            "class": "text-teal-darker",
+            "properties": "color: #20504f;",
+            "value": ""
+          },
+          {
+            "class": "text-teal-dark",
+            "properties": "color: #38a89d;",
+            "value": ""
+          },
+          {
+            "class": "text-teal",
+            "properties": "color: #4dc0b5;",
+            "value": ""
+          },
+          {
+            "class": "text-teal-light",
+            "properties": "color: #64d5ca;",
+            "value": ""
+          },
+          {
+            "class": "text-teal-lighter",
+            "properties": "color: #a0f0ed;",
+            "value": ""
+          },
+          {
+            "class": "text-teal-lightest",
+            "properties": "color: #e8fffe;",
+            "value": ""
+          },
+          {
+            "class": "text-blue-darkest",
+            "properties": "color: #12283a;",
+            "value": ""
+          },
+          {
+            "class": "text-blue-darker",
+            "properties": "color: #1c3d5a;",
+            "value": ""
+          },
+          {
+            "class": "text-blue-dark",
+            "properties": "color: #2779bd;",
+            "value": ""
+          },
+          {
+            "class": "text-blue",
+            "properties": "color: #3490dc;",
+            "value": ""
+          },
+          {
+            "class": "text-blue-light",
+            "properties": "color: #6cb2eb;",
+            "value": ""
+          },
+          {
+            "class": "text-blue-lighter",
+            "properties": "color: #bcdefa;",
+            "value": ""
+          },
+          {
+            "class": "text-blue-lightest",
+            "properties": "color: #eff8ff;",
+            "value": ""
+          },
+          {
+            "class": "text-indigo-darkest",
+            "properties": "color: #191e38;",
+            "value": ""
+          },
+          {
+            "class": "text-indigo-darker",
+            "properties": "color: #2f365f;",
+            "value": ""
+          },
+          {
+            "class": "text-indigo-dark",
+            "properties": "color: #5661b3;",
+            "value": ""
+          },
+          {
+            "class": "text-indigo",
+            "properties": "color: #6574cd;",
+            "value": ""
+          },
+          {
+            "class": "text-indigo-light",
+            "properties": "color: #7886d7;",
+            "value": ""
+          },
+          {
+            "class": "text-indigo-lighter",
+            "properties": "color: #b2b7ff;",
+            "value": ""
+          },
+          {
+            "class": "text-indigo-lightest",
+            "properties": "color: #e6e8ff;",
+            "value": ""
+          },
+          {
+            "class": "text-purple-darkest",
+            "properties": "color: #21183c;",
+            "value": ""
+          },
+          {
+            "class": "text-purple-darker",
+            "properties": "color: #382b5f;",
+            "value": ""
+          },
+          {
+            "class": "text-purple-dark",
+            "properties": "color: #794acf;",
+            "value": ""
+          },
+          {
+            "class": "text-purple",
+            "properties": "color: #9561e2;",
+            "value": ""
+          },
+          {
+            "class": "text-purple-light",
+            "properties": "color: #a779e9;",
+            "value": ""
+          },
+          {
+            "class": "text-purple-lighter",
+            "properties": "color: #d6bbfc;",
+            "value": ""
+          },
+          {
+            "class": "text-purple-lightest",
+            "properties": "color: #f3ebff;",
+            "value": ""
+          },
+          {
+            "class": "text-pink-darkest",
+            "properties": "color: #451225;",
+            "value": ""
+          },
+          {
+            "class": "text-pink-darker",
+            "properties": "color: #6f213f;",
+            "value": ""
+          },
+          {
+            "class": "text-pink-dark",
+            "properties": "color: #eb5286;",
+            "value": ""
+          },
+          {
+            "class": "text-pink",
+            "properties": "color: #f66d9b;",
+            "value": ""
+          },
+          {
+            "class": "text-pink-light",
+            "properties": "color: #fa7ea8;",
+            "value": ""
+          },
+          {
+            "class": "text-pink-lighter",
+            "properties": "color: #ffbbca;",
+            "value": ""
+          },
+          {
+            "class": "text-pink-lightest",
+            "properties": "color: #ffebef;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Font Family",
+        "url": "https://tailwindcss-v0.netlify.app//docs/fonts",
+        "description": "Utilities for controlling the font family of an element.",
+        "table": [
+          {
+            "class": "font-sans",
+            "properties": "font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;",
+            "value": ""
+          },
+          {
+            "class": "font-serif",
+            "properties": "font-family: Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;",
+            "value": ""
+          },
+          {
+            "class": "font-mono",
+            "properties": "font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Font Size",
+        "url": "https://tailwindcss-v0.netlify.app//docs/text-sizing",
+        "description": "Utilities for controlling the font size of an element.",
+        "table": [
+          {
+            "class": "text-xs",
+            "properties": "font-size: .75rem;",
+            "value": ""
+          },
+          {
+            "class": "text-sm",
+            "properties": "font-size: .875rem;",
+            "value": ""
+          },
+          {
+            "class": "text-base",
+            "properties": "font-size: 1rem;",
+            "value": ""
+          },
+          {
+            "class": "text-lg",
+            "properties": "font-size: 1.125rem;",
+            "value": ""
+          },
+          {
+            "class": "text-xl",
+            "properties": "font-size: 1.25rem;",
+            "value": ""
+          },
+          {
+            "class": "text-2xl",
+            "properties": "font-size: 1.5rem;",
+            "value": ""
+          },
+          {
+            "class": "text-3xl",
+            "properties": "font-size: 1.875rem;",
+            "value": ""
+          },
+          {
+            "class": "text-4xl",
+            "properties": "font-size: 2.25rem;",
+            "value": ""
+          },
+          {
+            "class": "text-5xl",
+            "properties": "font-size: 3rem;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Font Weight",
+        "url": "https://tailwindcss-v0.netlify.app//docs/font-weight",
+        "description": "Utilities for controlling the font weight of an element.",
+        "table": [
+          {
+            "class": "font-hairline",
+            "properties": "font-weight: 100;",
+            "value": ""
+          },
+          {
+            "class": "font-thin",
+            "properties": "font-weight: 200;",
+            "value": ""
+          },
+          {
+            "class": "font-light",
+            "properties": "font-weight: 300;",
+            "value": ""
+          },
+          {
+            "class": "font-normal",
+            "properties": "font-weight: 400;",
+            "value": ""
+          },
+          {
+            "class": "font-medium",
+            "properties": "font-weight: 500;",
+            "value": ""
+          },
+          {
+            "class": "font-semibold",
+            "properties": "font-weight: 600;",
+            "value": ""
+          },
+          {
+            "class": "font-bold",
+            "properties": "font-weight: 700;",
+            "value": ""
+          },
+          {
+            "class": "font-extrabold",
+            "properties": "font-weight: 800;",
+            "value": ""
+          },
+          {
+            "class": "font-black",
+            "properties": "font-weight: 900;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Letter Spacing",
+        "url": "https://tailwindcss-v0.netlify.app//docs/letter-spacing",
+        "description": "Utilities for controlling the tracking (letter spacing) of an element.",
+        "table": [
+          {
+            "class": "tracking-tight",
+            "properties": "letter-spacing: -0.05em;",
+            "value": ""
+          },
+          {
+            "class": "tracking-normal",
+            "properties": "letter-spacing: 0;",
+            "value": ""
+          },
+          {
+            "class": "tracking-wide",
+            "properties": "letter-spacing: 0.05em;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Line Height",
+        "url": "https://tailwindcss-v0.netlify.app//docs/line-height",
+        "description": "Utilities for controlling the leading (line height) of an element.",
+        "table": [
+          {
+            "class": "leading-none",
+            "properties": "line-height: 1;",
+            "value": ""
+          },
+          {
+            "class": "leading-tight",
+            "properties": "line-height: 1.25;",
+            "value": ""
+          },
+          {
+            "class": "leading-normal",
+            "properties": "line-height: 1.5;",
+            "value": ""
+          },
+          {
+            "class": "leading-loose",
+            "properties": "line-height: 2;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Lists",
+        "url": "https://tailwindcss-v0.netlify.app//docs/lists",
+        "description": "Utilities for controlling list styles.",
+        "table": [
+          {
+            "class": "list-reset",
+            "properties": "list-style: none; padding: 0;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Style & Decoration",
+        "url": "https://tailwindcss-v0.netlify.app//docs/text-style",
+        "description": "Utilities for controlling the style of text.",
+        "table": [
+          {
+            "class": "italic",
+            "properties": "font-style: italic;",
+            "value": ""
+          },
+          {
+            "class": "roman",
+            "properties": "font-style: normal;",
+            "value": ""
+          },
+          {
+            "class": "uppercase",
+            "properties": "text-transform: uppercase;",
+            "value": ""
+          },
+          {
+            "class": "lowercase",
+            "properties": "text-transform: lowercase;",
+            "value": ""
+          },
+          {
+            "class": "capitalize",
+            "properties": "text-transform: capitalize;",
+            "value": ""
+          },
+          {
+            "class": "normal-case",
+            "properties": "text-transform: none;",
+            "value": ""
+          },
+          {
+            "class": "underline",
+            "properties": "text-decoration: underline;",
+            "value": ""
+          },
+          {
+            "class": "line-through",
+            "properties": "text-decoration: line-through;",
+            "value": ""
+          },
+          {
+            "class": "no-underline",
+            "properties": "text-decoration: none;",
+            "value": ""
+          },
+          {
+            "class": "antialiased",
+            "properties": "-webkit-font-smoothing: antialiased;\n-moz-osx-font-smoothing: grayscale;",
+            "value": ""
+          },
+          {
+            "class": "subpixel-antialiased",
+            "properties": "-webkit-font-smoothing: auto;\n-moz-osx-font-smoothing: auto;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Text Alignment",
+        "url": "https://tailwindcss-v0.netlify.app//docs/text-alignment",
+        "description": "Utilities for controlling the alignment of text.",
+        "table": [
+          {
+            "class": "text-left",
+            "properties": "text-align: left;",
+            "value": ""
+          },
+          {
+            "class": "text-center",
+            "properties": "text-align: center;",
+            "value": ""
+          },
+          {
+            "class": "text-right",
+            "properties": "text-align: right;",
+            "value": ""
+          },
+          {
+            "class": "text-justify",
+            "properties": "text-align: justify;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Vertical Alignment",
+        "url": "https://tailwindcss-v0.netlify.app//docs/vertical-alignment",
+        "description": "Utilities for controlling the vertical alignment of an inline or table-cell box.",
+        "table": [
+          {
+            "class": "align-baseline",
+            "properties": "vertical-align: baseline;",
+            "value": ""
+          },
+          {
+            "class": "align-top",
+            "properties": "vertical-align: top;",
+            "value": ""
+          },
+          {
+            "class": "align-middle",
+            "properties": "vertical-align: middle;",
+            "value": ""
+          },
+          {
+            "class": "align-bottom",
+            "properties": "vertical-align: bottom;",
+            "value": ""
+          },
+          {
+            "class": "align-text-top",
+            "properties": "vertical-align: text-top;",
+            "value": ""
+          },
+          {
+            "class": "align-text-bottom",
+            "properties": "vertical-align: text-bottom;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Whitespace & Wrapping",
+        "url": "https://tailwindcss-v0.netlify.app//docs/whitespace-and-wrapping",
+        "description": "Utilities for controlling the whitespace and wrapping of an element.",
+        "table": [
+          {
+            "class": "whitespace-normal",
+            "properties": "white-space: normal;",
+            "value": ""
+          },
+          {
+            "class": "whitespace-no-wrap",
+            "properties": "white-space: nowrap;",
+            "value": ""
+          },
+          {
+            "class": "whitespace-pre",
+            "properties": "white-space: pre;",
+            "value": ""
+          },
+          {
+            "class": "whitespace-pre-line",
+            "properties": "white-space: pre-line;",
+            "value": ""
+          },
+          {
+            "class": "whitespace-pre-wrap",
+            "properties": "white-space: pre-wrap;",
+            "value": ""
+          },
+          {
+            "class": "break-words",
+            "properties": "word-wrap: break-word;",
+            "value": ""
+          },
+          {
+            "class": "break-normal",
+            "properties": "word-wrap: normal;",
+            "value": ""
+          },
+          {
+            "class": "truncate",
+            "properties": "overflow: hidden;\ntext-overflow: ellipsis;\nwhite-space: nowrap",
+            "value": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Backgrounds",
+    "children": [
+      {
+        "title": "Background Attachment",
+        "url": "https://tailwindcss-v0.netlify.app//docs/background-attachment",
+        "description": "Utilities for controlling how a background image behaves when scrolling.",
+        "table": [
+          {
+            "class": "bg-fixed",
+            "properties": "background-attachment: fixed;",
+            "value": ""
+          },
+          {
+            "class": "bg-local",
+            "properties": "background-attachment: local;",
+            "value": ""
+          },
+          {
+            "class": "bg-scroll",
+            "properties": "background-attachment: scroll;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Background Color",
+        "url": "https://tailwindcss-v0.netlify.app//docs/background-color",
+        "description": "Utilities for controlling an element's background color.",
+        "table": [
+          {
+            "class": "bg-transparent",
+            "properties": "background-color: transparent;",
+            "value": ""
+          },
+          {
+            "class": "bg-black",
+            "properties": "background-color: #22292f;",
+            "value": ""
+          },
+          {
+            "class": "bg-grey-darkest",
+            "properties": "background-color: #3d4852;",
+            "value": ""
+          },
+          {
+            "class": "bg-grey-darker",
+            "properties": "background-color: #606f7b;",
+            "value": ""
+          },
+          {
+            "class": "bg-grey-dark",
+            "properties": "background-color: #8795a1;",
+            "value": ""
+          },
+          {
+            "class": "bg-grey",
+            "properties": "background-color: #b8c2cc;",
+            "value": ""
+          },
+          {
+            "class": "bg-grey-light",
+            "properties": "background-color: #dae1e7;",
+            "value": ""
+          },
+          {
+            "class": "bg-grey-lighter",
+            "properties": "background-color: #f1f5f8;",
+            "value": ""
+          },
+          {
+            "class": "bg-grey-lightest",
+            "properties": "background-color: #f8fafc;",
+            "value": ""
+          },
+          {
+            "class": "bg-white",
+            "properties": "background-color: #ffffff;",
+            "value": ""
+          },
+          {
+            "class": "bg-red-darkest",
+            "properties": "background-color: #3b0d0c;",
+            "value": ""
+          },
+          {
+            "class": "bg-red-darker",
+            "properties": "background-color: #621b18;",
+            "value": ""
+          },
+          {
+            "class": "bg-red-dark",
+            "properties": "background-color: #cc1f1a;",
+            "value": ""
+          },
+          {
+            "class": "bg-red",
+            "properties": "background-color: #e3342f;",
+            "value": ""
+          },
+          {
+            "class": "bg-red-light",
+            "properties": "background-color: #ef5753;",
+            "value": ""
+          },
+          {
+            "class": "bg-red-lighter",
+            "properties": "background-color: #f9acaa;",
+            "value": ""
+          },
+          {
+            "class": "bg-red-lightest",
+            "properties": "background-color: #fcebea;",
+            "value": ""
+          },
+          {
+            "class": "bg-orange-darkest",
+            "properties": "background-color: #462a16;",
+            "value": ""
+          },
+          {
+            "class": "bg-orange-darker",
+            "properties": "background-color: #613b1f;",
+            "value": ""
+          },
+          {
+            "class": "bg-orange-dark",
+            "properties": "background-color: #de751f;",
+            "value": ""
+          },
+          {
+            "class": "bg-orange",
+            "properties": "background-color: #f6993f;",
+            "value": ""
+          },
+          {
+            "class": "bg-orange-light",
+            "properties": "background-color: #faad63;",
+            "value": ""
+          },
+          {
+            "class": "bg-orange-lighter",
+            "properties": "background-color: #fcd9b6;",
+            "value": ""
+          },
+          {
+            "class": "bg-orange-lightest",
+            "properties": "background-color: #fff5eb;",
+            "value": ""
+          },
+          {
+            "class": "bg-yellow-darkest",
+            "properties": "background-color: #453411;",
+            "value": ""
+          },
+          {
+            "class": "bg-yellow-darker",
+            "properties": "background-color: #684f1d;",
+            "value": ""
+          },
+          {
+            "class": "bg-yellow-dark",
+            "properties": "background-color: #f2d024;",
+            "value": ""
+          },
+          {
+            "class": "bg-yellow",
+            "properties": "background-color: #ffed4a;",
+            "value": ""
+          },
+          {
+            "class": "bg-yellow-light",
+            "properties": "background-color: #fff382;",
+            "value": ""
+          },
+          {
+            "class": "bg-yellow-lighter",
+            "properties": "background-color: #fff9c2;",
+            "value": ""
+          },
+          {
+            "class": "bg-yellow-lightest",
+            "properties": "background-color: #fcfbeb;",
+            "value": ""
+          },
+          {
+            "class": "bg-green-darkest",
+            "properties": "background-color: #0f2f21;",
+            "value": ""
+          },
+          {
+            "class": "bg-green-darker",
+            "properties": "background-color: #1a4731;",
+            "value": ""
+          },
+          {
+            "class": "bg-green-dark",
+            "properties": "background-color: #1f9d55;",
+            "value": ""
+          },
+          {
+            "class": "bg-green",
+            "properties": "background-color: #38c172;",
+            "value": ""
+          },
+          {
+            "class": "bg-green-light",
+            "properties": "background-color: #51d88a;",
+            "value": ""
+          },
+          {
+            "class": "bg-green-lighter",
+            "properties": "background-color: #a2f5bf;",
+            "value": ""
+          },
+          {
+            "class": "bg-green-lightest",
+            "properties": "background-color: #e3fcec;",
+            "value": ""
+          },
+          {
+            "class": "bg-teal-darkest",
+            "properties": "background-color: #0d3331;",
+            "value": ""
+          },
+          {
+            "class": "bg-teal-darker",
+            "properties": "background-color: #20504f;",
+            "value": ""
+          },
+          {
+            "class": "bg-teal-dark",
+            "properties": "background-color: #38a89d;",
+            "value": ""
+          },
+          {
+            "class": "bg-teal",
+            "properties": "background-color: #4dc0b5;",
+            "value": ""
+          },
+          {
+            "class": "bg-teal-light",
+            "properties": "background-color: #64d5ca;",
+            "value": ""
+          },
+          {
+            "class": "bg-teal-lighter",
+            "properties": "background-color: #a0f0ed;",
+            "value": ""
+          },
+          {
+            "class": "bg-teal-lightest",
+            "properties": "background-color: #e8fffe;",
+            "value": ""
+          },
+          {
+            "class": "bg-blue-darkest",
+            "properties": "background-color: #12283a;",
+            "value": ""
+          },
+          {
+            "class": "bg-blue-darker",
+            "properties": "background-color: #1c3d5a;",
+            "value": ""
+          },
+          {
+            "class": "bg-blue-dark",
+            "properties": "background-color: #2779bd;",
+            "value": ""
+          },
+          {
+            "class": "bg-blue",
+            "properties": "background-color: #3490dc;",
+            "value": ""
+          },
+          {
+            "class": "bg-blue-light",
+            "properties": "background-color: #6cb2eb;",
+            "value": ""
+          },
+          {
+            "class": "bg-blue-lighter",
+            "properties": "background-color: #bcdefa;",
+            "value": ""
+          },
+          {
+            "class": "bg-blue-lightest",
+            "properties": "background-color: #eff8ff;",
+            "value": ""
+          },
+          {
+            "class": "bg-indigo-darkest",
+            "properties": "background-color: #191e38;",
+            "value": ""
+          },
+          {
+            "class": "bg-indigo-darker",
+            "properties": "background-color: #2f365f;",
+            "value": ""
+          },
+          {
+            "class": "bg-indigo-dark",
+            "properties": "background-color: #5661b3;",
+            "value": ""
+          },
+          {
+            "class": "bg-indigo",
+            "properties": "background-color: #6574cd;",
+            "value": ""
+          },
+          {
+            "class": "bg-indigo-light",
+            "properties": "background-color: #7886d7;",
+            "value": ""
+          },
+          {
+            "class": "bg-indigo-lighter",
+            "properties": "background-color: #b2b7ff;",
+            "value": ""
+          },
+          {
+            "class": "bg-indigo-lightest",
+            "properties": "background-color: #e6e8ff;",
+            "value": ""
+          },
+          {
+            "class": "bg-purple-darkest",
+            "properties": "background-color: #21183c;",
+            "value": ""
+          },
+          {
+            "class": "bg-purple-darker",
+            "properties": "background-color: #382b5f;",
+            "value": ""
+          },
+          {
+            "class": "bg-purple-dark",
+            "properties": "background-color: #794acf;",
+            "value": ""
+          },
+          {
+            "class": "bg-purple",
+            "properties": "background-color: #9561e2;",
+            "value": ""
+          },
+          {
+            "class": "bg-purple-light",
+            "properties": "background-color: #a779e9;",
+            "value": ""
+          },
+          {
+            "class": "bg-purple-lighter",
+            "properties": "background-color: #d6bbfc;",
+            "value": ""
+          },
+          {
+            "class": "bg-purple-lightest",
+            "properties": "background-color: #f3ebff;",
+            "value": ""
+          },
+          {
+            "class": "bg-pink-darkest",
+            "properties": "background-color: #451225;",
+            "value": ""
+          },
+          {
+            "class": "bg-pink-darker",
+            "properties": "background-color: #6f213f;",
+            "value": ""
+          },
+          {
+            "class": "bg-pink-dark",
+            "properties": "background-color: #eb5286;",
+            "value": ""
+          },
+          {
+            "class": "bg-pink",
+            "properties": "background-color: #f66d9b;",
+            "value": ""
+          },
+          {
+            "class": "bg-pink-light",
+            "properties": "background-color: #fa7ea8;",
+            "value": ""
+          },
+          {
+            "class": "bg-pink-lighter",
+            "properties": "background-color: #ffbbca;",
+            "value": ""
+          },
+          {
+            "class": "bg-pink-lightest",
+            "properties": "background-color: #ffebef;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Background Position",
+        "url": "https://tailwindcss-v0.netlify.app//docs/background-position",
+        "description": "Utilities for controlling the position of an element's background image.",
+        "table": [
+          {
+            "class": "bg-bottom",
+            "properties": "background-position: bottom;",
+            "value": ""
+          },
+          {
+            "class": "bg-center",
+            "properties": "background-position: center;",
+            "value": ""
+          },
+          {
+            "class": "bg-left",
+            "properties": "background-position: left;",
+            "value": ""
+          },
+          {
+            "class": "bg-left-bottom",
+            "properties": "background-position: left bottom;",
+            "value": ""
+          },
+          {
+            "class": "bg-left-top",
+            "properties": "background-position: left top;",
+            "value": ""
+          },
+          {
+            "class": "bg-right",
+            "properties": "background-position: right;",
+            "value": ""
+          },
+          {
+            "class": "bg-right-bottom",
+            "properties": "background-position: right bottom;",
+            "value": ""
+          },
+          {
+            "class": "bg-right-top",
+            "properties": "background-position: right top;",
+            "value": ""
+          },
+          {
+            "class": "bg-top",
+            "properties": "background-position: top;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Background Repeat",
+        "url": "https://tailwindcss-v0.netlify.app//docs/background-repeat",
+        "description": "Utilities for controlling the repetition of an element's background image.",
+        "table": [
+          {
+            "class": "bg-repeat",
+            "properties": "background-repeat: repeat;",
+            "value": ""
+          },
+          {
+            "class": "bg-no-repeat",
+            "properties": "background-repeat: no-repeat;",
+            "value": ""
+          },
+          {
+            "class": "bg-repeat-x",
+            "properties": "background-repeat: repeat-x;",
+            "value": ""
+          },
+          {
+            "class": "bg-repeat-y",
+            "properties": "background-repeat: repeat-y;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Background Size",
+        "url": "https://tailwindcss-v0.netlify.app//docs/background-size",
+        "description": "Utilities for controlling the background size of an element's background image.",
+        "table": [
+          {
+            "class": "bg-auto",
+            "properties": "background-size: auto;",
+            "value": ""
+          },
+          {
+            "class": "bg-cover",
+            "properties": "background-size: cover;",
+            "value": ""
+          },
+          {
+            "class": "bg-contain",
+            "properties": "background-size: contain;",
+            "value": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Borders",
+    "children": [
+      {
+        "title": "Border Color",
+        "url": "https://tailwindcss-v0.netlify.app//docs/border-color",
+        "description": "Utilities for controlling the color of an element's borders.",
+        "table": [
+          {
+            "class": "border-transparent",
+            "properties": "border-color: transparent;",
+            "value": ""
+          },
+          {
+            "class": "border-black",
+            "properties": "border-color: #22292f;",
+            "value": ""
+          },
+          {
+            "class": "border-grey-darkest",
+            "properties": "border-color: #3d4852;",
+            "value": ""
+          },
+          {
+            "class": "border-grey-darker",
+            "properties": "border-color: #606f7b;",
+            "value": ""
+          },
+          {
+            "class": "border-grey-dark",
+            "properties": "border-color: #8795a1;",
+            "value": ""
+          },
+          {
+            "class": "border-grey",
+            "properties": "border-color: #b8c2cc;",
+            "value": ""
+          },
+          {
+            "class": "border-grey-light",
+            "properties": "border-color: #dae1e7;",
+            "value": ""
+          },
+          {
+            "class": "border-grey-lighter",
+            "properties": "border-color: #f1f5f8;",
+            "value": ""
+          },
+          {
+            "class": "border-grey-lightest",
+            "properties": "border-color: #f8fafc;",
+            "value": ""
+          },
+          {
+            "class": "border-white",
+            "properties": "border-color: #ffffff;",
+            "value": ""
+          },
+          {
+            "class": "border-red-darkest",
+            "properties": "border-color: #3b0d0c;",
+            "value": ""
+          },
+          {
+            "class": "border-red-darker",
+            "properties": "border-color: #621b18;",
+            "value": ""
+          },
+          {
+            "class": "border-red-dark",
+            "properties": "border-color: #cc1f1a;",
+            "value": ""
+          },
+          {
+            "class": "border-red",
+            "properties": "border-color: #e3342f;",
+            "value": ""
+          },
+          {
+            "class": "border-red-light",
+            "properties": "border-color: #ef5753;",
+            "value": ""
+          },
+          {
+            "class": "border-red-lighter",
+            "properties": "border-color: #f9acaa;",
+            "value": ""
+          },
+          {
+            "class": "border-red-lightest",
+            "properties": "border-color: #fcebea;",
+            "value": ""
+          },
+          {
+            "class": "border-orange-darkest",
+            "properties": "border-color: #462a16;",
+            "value": ""
+          },
+          {
+            "class": "border-orange-darker",
+            "properties": "border-color: #613b1f;",
+            "value": ""
+          },
+          {
+            "class": "border-orange-dark",
+            "properties": "border-color: #de751f;",
+            "value": ""
+          },
+          {
+            "class": "border-orange",
+            "properties": "border-color: #f6993f;",
+            "value": ""
+          },
+          {
+            "class": "border-orange-light",
+            "properties": "border-color: #faad63;",
+            "value": ""
+          },
+          {
+            "class": "border-orange-lighter",
+            "properties": "border-color: #fcd9b6;",
+            "value": ""
+          },
+          {
+            "class": "border-orange-lightest",
+            "properties": "border-color: #fff5eb;",
+            "value": ""
+          },
+          {
+            "class": "border-yellow-darkest",
+            "properties": "border-color: #453411;",
+            "value": ""
+          },
+          {
+            "class": "border-yellow-darker",
+            "properties": "border-color: #684f1d;",
+            "value": ""
+          },
+          {
+            "class": "border-yellow-dark",
+            "properties": "border-color: #f2d024;",
+            "value": ""
+          },
+          {
+            "class": "border-yellow",
+            "properties": "border-color: #ffed4a;",
+            "value": ""
+          },
+          {
+            "class": "border-yellow-light",
+            "properties": "border-color: #fff382;",
+            "value": ""
+          },
+          {
+            "class": "border-yellow-lighter",
+            "properties": "border-color: #fff9c2;",
+            "value": ""
+          },
+          {
+            "class": "border-yellow-lightest",
+            "properties": "border-color: #fcfbeb;",
+            "value": ""
+          },
+          {
+            "class": "border-green-darkest",
+            "properties": "border-color: #0f2f21;",
+            "value": ""
+          },
+          {
+            "class": "border-green-darker",
+            "properties": "border-color: #1a4731;",
+            "value": ""
+          },
+          {
+            "class": "border-green-dark",
+            "properties": "border-color: #1f9d55;",
+            "value": ""
+          },
+          {
+            "class": "border-green",
+            "properties": "border-color: #38c172;",
+            "value": ""
+          },
+          {
+            "class": "border-green-light",
+            "properties": "border-color: #51d88a;",
+            "value": ""
+          },
+          {
+            "class": "border-green-lighter",
+            "properties": "border-color: #a2f5bf;",
+            "value": ""
+          },
+          {
+            "class": "border-green-lightest",
+            "properties": "border-color: #e3fcec;",
+            "value": ""
+          },
+          {
+            "class": "border-teal-darkest",
+            "properties": "border-color: #0d3331;",
+            "value": ""
+          },
+          {
+            "class": "border-teal-darker",
+            "properties": "border-color: #20504f;",
+            "value": ""
+          },
+          {
+            "class": "border-teal-dark",
+            "properties": "border-color: #38a89d;",
+            "value": ""
+          },
+          {
+            "class": "border-teal",
+            "properties": "border-color: #4dc0b5;",
+            "value": ""
+          },
+          {
+            "class": "border-teal-light",
+            "properties": "border-color: #64d5ca;",
+            "value": ""
+          },
+          {
+            "class": "border-teal-lighter",
+            "properties": "border-color: #a0f0ed;",
+            "value": ""
+          },
+          {
+            "class": "border-teal-lightest",
+            "properties": "border-color: #e8fffe;",
+            "value": ""
+          },
+          {
+            "class": "border-blue-darkest",
+            "properties": "border-color: #12283a;",
+            "value": ""
+          },
+          {
+            "class": "border-blue-darker",
+            "properties": "border-color: #1c3d5a;",
+            "value": ""
+          },
+          {
+            "class": "border-blue-dark",
+            "properties": "border-color: #2779bd;",
+            "value": ""
+          },
+          {
+            "class": "border-blue",
+            "properties": "border-color: #3490dc;",
+            "value": ""
+          },
+          {
+            "class": "border-blue-light",
+            "properties": "border-color: #6cb2eb;",
+            "value": ""
+          },
+          {
+            "class": "border-blue-lighter",
+            "properties": "border-color: #bcdefa;",
+            "value": ""
+          },
+          {
+            "class": "border-blue-lightest",
+            "properties": "border-color: #eff8ff;",
+            "value": ""
+          },
+          {
+            "class": "border-indigo-darkest",
+            "properties": "border-color: #191e38;",
+            "value": ""
+          },
+          {
+            "class": "border-indigo-darker",
+            "properties": "border-color: #2f365f;",
+            "value": ""
+          },
+          {
+            "class": "border-indigo-dark",
+            "properties": "border-color: #5661b3;",
+            "value": ""
+          },
+          {
+            "class": "border-indigo",
+            "properties": "border-color: #6574cd;",
+            "value": ""
+          },
+          {
+            "class": "border-indigo-light",
+            "properties": "border-color: #7886d7;",
+            "value": ""
+          },
+          {
+            "class": "border-indigo-lighter",
+            "properties": "border-color: #b2b7ff;",
+            "value": ""
+          },
+          {
+            "class": "border-indigo-lightest",
+            "properties": "border-color: #e6e8ff;",
+            "value": ""
+          },
+          {
+            "class": "border-purple-darkest",
+            "properties": "border-color: #21183c;",
+            "value": ""
+          },
+          {
+            "class": "border-purple-darker",
+            "properties": "border-color: #382b5f;",
+            "value": ""
+          },
+          {
+            "class": "border-purple-dark",
+            "properties": "border-color: #794acf;",
+            "value": ""
+          },
+          {
+            "class": "border-purple",
+            "properties": "border-color: #9561e2;",
+            "value": ""
+          },
+          {
+            "class": "border-purple-light",
+            "properties": "border-color: #a779e9;",
+            "value": ""
+          },
+          {
+            "class": "border-purple-lighter",
+            "properties": "border-color: #d6bbfc;",
+            "value": ""
+          },
+          {
+            "class": "border-purple-lightest",
+            "properties": "border-color: #f3ebff;",
+            "value": ""
+          },
+          {
+            "class": "border-pink-darkest",
+            "properties": "border-color: #451225;",
+            "value": ""
+          },
+          {
+            "class": "border-pink-darker",
+            "properties": "border-color: #6f213f;",
+            "value": ""
+          },
+          {
+            "class": "border-pink-dark",
+            "properties": "border-color: #eb5286;",
+            "value": ""
+          },
+          {
+            "class": "border-pink",
+            "properties": "border-color: #f66d9b;",
+            "value": ""
+          },
+          {
+            "class": "border-pink-light",
+            "properties": "border-color: #fa7ea8;",
+            "value": ""
+          },
+          {
+            "class": "border-pink-lighter",
+            "properties": "border-color: #ffbbca;",
+            "value": ""
+          },
+          {
+            "class": "border-pink-lightest",
+            "properties": "border-color: #ffebef;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Border Style",
+        "url": "https://tailwindcss-v0.netlify.app//docs/border-style",
+        "description": "Utilities for controlling the style of an element's borders.",
+        "table": [
+          {
+            "class": "border-solid",
+            "properties": "border-style: solid;",
+            "value": ""
+          },
+          {
+            "class": "border-dashed",
+            "properties": "border-style: dashed;",
+            "value": ""
+          },
+          {
+            "class": "border-dotted",
+            "properties": "border-style: dotted;",
+            "value": ""
+          },
+          {
+            "class": "border-none",
+            "properties": "border-style: none;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Border Width",
+        "url": "https://tailwindcss-v0.netlify.app//docs/border-width",
+        "description": "Utilities for controlling the width of an element's borders.",
+        "table": []
+      },
+      {
+        "title": "Border Radius",
+        "url": "https://tailwindcss-v0.netlify.app//docs/border-radius",
+        "description": "Utilities for controlling the border radius of an element.",
+        "table": [
+          {
+            "class": "rounded-none",
+            "properties": "border-radius: 0;",
+            "value": ""
+          },
+          {
+            "class": "rounded-sm",
+            "properties": "border-radius: .125rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded",
+            "properties": "border-radius: .25rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-lg",
+            "properties": "border-radius: .5rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-full",
+            "properties": "border-radius: 9999px;",
+            "value": ""
+          },
+          {
+            "class": "rounded-t-none",
+            "properties": "border-top-left-radius: 0;\nborder-top-right-radius: 0;",
+            "value": ""
+          },
+          {
+            "class": "rounded-r-none",
+            "properties": "border-top-right-radius: 0;\nborder-bottom-right-radius: 0;",
+            "value": ""
+          },
+          {
+            "class": "rounded-b-none",
+            "properties": "border-bottom-right-radius: 0;\nborder-bottom-left-radius: 0;",
+            "value": ""
+          },
+          {
+            "class": "rounded-l-none",
+            "properties": "border-top-left-radius: 0;\nborder-bottom-left-radius: 0;",
+            "value": ""
+          },
+          {
+            "class": "rounded-t-sm",
+            "properties": "border-top-left-radius: .125rem;\nborder-top-right-radius: .125rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-r-sm",
+            "properties": "border-top-right-radius: .125rem;\nborder-bottom-right-radius: .125rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-b-sm",
+            "properties": "border-bottom-right-radius: .125rem;\nborder-bottom-left-radius: .125rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-l-sm",
+            "properties": "border-top-left-radius: .125rem;\nborder-bottom-left-radius: .125rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-t",
+            "properties": "border-top-left-radius: .25rem;\nborder-top-right-radius: .25rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-r",
+            "properties": "border-top-right-radius: .25rem;\nborder-bottom-right-radius: .25rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-b",
+            "properties": "border-bottom-right-radius: .25rem;\nborder-bottom-left-radius: .25rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-l",
+            "properties": "border-top-left-radius: .25rem;\nborder-bottom-left-radius: .25rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-t-lg",
+            "properties": "border-top-left-radius: .5rem;\nborder-top-right-radius: .5rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-r-lg",
+            "properties": "border-top-right-radius: .5rem;\nborder-bottom-right-radius: .5rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-b-lg",
+            "properties": "border-bottom-right-radius: .5rem;\nborder-bottom-left-radius: .5rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-l-lg",
+            "properties": "border-top-left-radius: .5rem;\nborder-bottom-left-radius: .5rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-t-full",
+            "properties": "border-top-left-radius: 9999px;\nborder-top-right-radius: 9999px;",
+            "value": ""
+          },
+          {
+            "class": "rounded-r-full",
+            "properties": "border-top-right-radius: 9999px;\nborder-bottom-right-radius: 9999px;",
+            "value": ""
+          },
+          {
+            "class": "rounded-b-full",
+            "properties": "border-bottom-right-radius: 9999px;\nborder-bottom-left-radius: 9999px;",
+            "value": ""
+          },
+          {
+            "class": "rounded-l-full",
+            "properties": "border-top-left-radius: 9999px;\nborder-bottom-left-radius: 9999px;",
+            "value": ""
+          },
+          {
+            "class": "rounded-tl-none",
+            "properties": "border-top-left-radius: 0;",
+            "value": ""
+          },
+          {
+            "class": "rounded-tr-none",
+            "properties": "border-top-right-radius: 0;",
+            "value": ""
+          },
+          {
+            "class": "rounded-br-none",
+            "properties": "border-bottom-right-radius: 0;",
+            "value": ""
+          },
+          {
+            "class": "rounded-bl-none",
+            "properties": "border-bottom-left-radius: 0;",
+            "value": ""
+          },
+          {
+            "class": "rounded-tl-sm",
+            "properties": "border-top-left-radius: .125rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-tr-sm",
+            "properties": "border-top-right-radius: .125rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-br-sm",
+            "properties": "border-bottom-right-radius: .125rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-bl-sm",
+            "properties": "border-bottom-left-radius: .125rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-tl",
+            "properties": "border-top-left-radius: .25rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-tr",
+            "properties": "border-top-right-radius: .25rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-br",
+            "properties": "border-bottom-right-radius: .25rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-bl",
+            "properties": "border-bottom-left-radius: .25rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-tl-lg",
+            "properties": "border-top-left-radius: .5rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-tr-lg",
+            "properties": "border-top-right-radius: .5rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-br-lg",
+            "properties": "border-bottom-right-radius: .5rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-bl-lg",
+            "properties": "border-bottom-left-radius: .5rem;",
+            "value": ""
+          },
+          {
+            "class": "rounded-tl-full",
+            "properties": "border-top-left-radius: 9999px;",
+            "value": ""
+          },
+          {
+            "class": "rounded-tr-full",
+            "properties": "border-top-right-radius: 9999px;",
+            "value": ""
+          },
+          {
+            "class": "rounded-br-full",
+            "properties": "border-bottom-right-radius: 9999px;",
+            "value": ""
+          },
+          {
+            "class": "rounded-bl-full",
+            "properties": "border-bottom-left-radius: 9999px;",
+            "value": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Flexbox",
+    "children": [
+      {
+        "title": "Display",
+        "url": "https://tailwindcss-v0.netlify.app//docs/flexbox-display",
+        "description": "Utilities for creating flex containers.",
+        "table": [
+          {
+            "class": "flex",
+            "properties": "display: flex;",
+            "value": ""
+          },
+          {
+            "class": "inline-flex",
+            "properties": "display: inline-flex;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Flex Direction",
+        "url": "https://tailwindcss-v0.netlify.app//docs/flexbox-direction",
+        "description": "Utilities for controlling the direction of flex items.",
+        "table": [
+          {
+            "class": "flex-row",
+            "properties": "flex-direction: row;",
+            "value": ""
+          },
+          {
+            "class": "flex-row-reverse",
+            "properties": "flex-direction: row-reverse;",
+            "value": ""
+          },
+          {
+            "class": "flex-col",
+            "properties": "flex-direction: column;",
+            "value": ""
+          },
+          {
+            "class": "flex-col-reverse",
+            "properties": "flex-direction: column-reverse;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Flex Wrapping",
+        "url": "https://tailwindcss-v0.netlify.app//docs/flexbox-wrapping",
+        "description": "Utilities for controlling how flex items wrap.",
+        "table": [
+          {
+            "class": "flex-no-wrap",
+            "properties": "flex-wrap: nowrap;",
+            "value": ""
+          },
+          {
+            "class": "flex-wrap",
+            "properties": "flex-wrap: wrap;",
+            "value": ""
+          },
+          {
+            "class": "flex-wrap-reverse",
+            "properties": "flex-wrap: wrap-reverse;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Align Items",
+        "url": "https://tailwindcss-v0.netlify.app//docs/flexbox-align-items",
+        "description": "Utilities for controlling how flex items are positioned along a container's cross axis.",
+        "table": [
+          {
+            "class": "items-stretch",
+            "properties": "align-items: stretch;",
+            "value": ""
+          },
+          {
+            "class": "items-start",
+            "properties": "align-items: flex-start;",
+            "value": ""
+          },
+          {
+            "class": "items-center",
+            "properties": "align-items: center;",
+            "value": ""
+          },
+          {
+            "class": "items-end",
+            "properties": "align-items: flex-end;",
+            "value": ""
+          },
+          {
+            "class": "items-baseline",
+            "properties": "align-items: baseline;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Align Content",
+        "url": "https://tailwindcss-v0.netlify.app//docs/flexbox-align-content",
+        "description": "Utilities for controlling how lines are positioned in multi-line flex containers.",
+        "table": [
+          {
+            "class": "content-start",
+            "properties": "align-content: flex-start;",
+            "value": ""
+          },
+          {
+            "class": "content-center",
+            "properties": "align-content: center;",
+            "value": ""
+          },
+          {
+            "class": "content-end",
+            "properties": "align-content: flex-end;",
+            "value": ""
+          },
+          {
+            "class": "content-between",
+            "properties": "align-content: space-between;",
+            "value": ""
+          },
+          {
+            "class": "content-around",
+            "properties": "align-content: space-around;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Align Self",
+        "url": "https://tailwindcss-v0.netlify.app//docs/flexbox-align-self",
+        "description": "Utilities for controlling how an individual flex item is positioned along its container's cross axis.",
+        "table": [
+          {
+            "class": "self-auto",
+            "properties": "align-self: auto;",
+            "value": ""
+          },
+          {
+            "class": "self-start",
+            "properties": "align-self: flex-start;",
+            "value": ""
+          },
+          {
+            "class": "self-center",
+            "properties": "align-self: center;",
+            "value": ""
+          },
+          {
+            "class": "self-end",
+            "properties": "align-self: flex-end;",
+            "value": ""
+          },
+          {
+            "class": "self-stretch",
+            "properties": "align-self: stretch;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Justify Content",
+        "url": "https://tailwindcss-v0.netlify.app//docs/flexbox-justify-content",
+        "description": "Utilities for controlling how flex items are positioned along a container's main axis.",
+        "table": [
+          {
+            "class": "justify-start",
+            "properties": "justify-content: flex-start;",
+            "value": ""
+          },
+          {
+            "class": "justify-center",
+            "properties": "justify-content: center;",
+            "value": ""
+          },
+          {
+            "class": "justify-end",
+            "properties": "justify-content: flex-end;",
+            "value": ""
+          },
+          {
+            "class": "justify-between",
+            "properties": "justify-content: space-between;",
+            "value": ""
+          },
+          {
+            "class": "justify-around",
+            "properties": "justify-content: space-around;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Flex, Grow, & Shrink",
+        "url": "https://tailwindcss-v0.netlify.app//docs/flexbox-flex-grow-shrink",
+        "description": "Utilities for controlling how flex items grow and shrink.",
+        "table": [
+          {
+            "class": "flex-initial",
+            "properties": "flex: initial;",
+            "value": ""
+          },
+          {
+            "class": "flex-1",
+            "properties": "flex: 1;",
+            "value": ""
+          },
+          {
+            "class": "flex-auto",
+            "properties": "flex: auto;",
+            "value": ""
+          },
+          {
+            "class": "flex-none",
+            "properties": "flex: none;",
+            "value": ""
+          },
+          {
+            "class": "flex-grow",
+            "properties": "flex-grow: 1;",
+            "value": ""
+          },
+          {
+            "class": "flex-shrink",
+            "properties": "flex-shrink: 1;",
+            "value": ""
+          },
+          {
+            "class": "flex-no-grow",
+            "properties": "flex-grow: 0;",
+            "value": ""
+          },
+          {
+            "class": "flex-no-shrink",
+            "properties": "flex-shrink: 0;",
+            "value": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Spacing",
+    "children": [
+      {
+        "title": "Margin & Padding",
+        "url": "https://tailwindcss-v0.netlify.app//docs/spacing",
+        "description": "Utilities for controlling an element's padding and margin.",
+        "table": []
+      }
+    ]
+  },
+  {
+    "title": "Sizing",
+    "children": [
+      {
+        "title": "Width",
+        "url": "https://tailwindcss-v0.netlify.app//docs/width",
+        "description": "Utilities for setting the width of an element",
+        "table": [
+          {
+            "class": "w-1",
+            "properties": "width: 0.25rem;",
+            "value": ""
+          },
+          {
+            "class": "w-2",
+            "properties": "width: 0.5rem;",
+            "value": ""
+          },
+          {
+            "class": "w-3",
+            "properties": "width: 0.75rem;",
+            "value": ""
+          },
+          {
+            "class": "w-4",
+            "properties": "width: 1rem;",
+            "value": ""
+          },
+          {
+            "class": "w-6",
+            "properties": "width: 1.5rem;",
+            "value": ""
+          },
+          {
+            "class": "w-8",
+            "properties": "width: 2rem;",
+            "value": ""
+          },
+          {
+            "class": "w-10",
+            "properties": "width: 2.5rem;",
+            "value": ""
+          },
+          {
+            "class": "w-12",
+            "properties": "width: 3rem;",
+            "value": ""
+          },
+          {
+            "class": "w-16",
+            "properties": "width: 4rem;",
+            "value": ""
+          },
+          {
+            "class": "w-24",
+            "properties": "width: 6rem;",
+            "value": ""
+          },
+          {
+            "class": "w-32",
+            "properties": "width: 8rem;",
+            "value": ""
+          },
+          {
+            "class": "w-48",
+            "properties": "width: 12rem;",
+            "value": ""
+          },
+          {
+            "class": "w-64",
+            "properties": "width: 16rem;",
+            "value": ""
+          },
+          {
+            "class": "w-auto",
+            "properties": "width: auto;",
+            "value": ""
+          },
+          {
+            "class": "w-px",
+            "properties": "width: 1px;",
+            "value": ""
+          },
+          {
+            "class": "w-1/2",
+            "properties": "width: 50%;",
+            "value": ""
+          },
+          {
+            "class": "w-1/3",
+            "properties": "width: 33.33333%;",
+            "value": ""
+          },
+          {
+            "class": "w-2/3",
+            "properties": "width: 66.66667%;",
+            "value": ""
+          },
+          {
+            "class": "w-1/4",
+            "properties": "width: 25%;",
+            "value": ""
+          },
+          {
+            "class": "w-3/4",
+            "properties": "width: 75%;",
+            "value": ""
+          },
+          {
+            "class": "w-1/5",
+            "properties": "width: 20%;",
+            "value": ""
+          },
+          {
+            "class": "w-2/5",
+            "properties": "width: 40%;",
+            "value": ""
+          },
+          {
+            "class": "w-3/5",
+            "properties": "width: 60%;",
+            "value": ""
+          },
+          {
+            "class": "w-4/5",
+            "properties": "width: 80%;",
+            "value": ""
+          },
+          {
+            "class": "w-1/6",
+            "properties": "width: 16.66667%;",
+            "value": ""
+          },
+          {
+            "class": "w-5/6",
+            "properties": "width: 83.33333%;",
+            "value": ""
+          },
+          {
+            "class": "w-full",
+            "properties": "width: 100%;",
+            "value": ""
+          },
+          {
+            "class": "w-screen",
+            "properties": "width: 100vw;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Min-Width",
+        "url": "https://tailwindcss-v0.netlify.app//docs/min-width",
+        "description": "Utilities for setting the minimum width of an element",
+        "table": [
+          {
+            "class": "min-w-0",
+            "properties": "min-width: 0;",
+            "value": ""
+          },
+          {
+            "class": "min-w-full",
+            "properties": "min-width: 100%;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Max-Width",
+        "url": "https://tailwindcss-v0.netlify.app//docs/max-width",
+        "description": "Utilities for setting the maximum width of an element",
+        "table": [
+          {
+            "class": "max-w-xs",
+            "properties": "max-width: 20rem;",
+            "value": ""
+          },
+          {
+            "class": "max-w-sm",
+            "properties": "max-width: 30rem;",
+            "value": ""
+          },
+          {
+            "class": "max-w-md",
+            "properties": "max-width: 40rem;",
+            "value": ""
+          },
+          {
+            "class": "max-w-lg",
+            "properties": "max-width: 50rem;",
+            "value": ""
+          },
+          {
+            "class": "max-w-xl",
+            "properties": "max-width: 60rem;",
+            "value": ""
+          },
+          {
+            "class": "max-w-2xl",
+            "properties": "max-width: 70rem;",
+            "value": ""
+          },
+          {
+            "class": "max-w-3xl",
+            "properties": "max-width: 80rem;",
+            "value": ""
+          },
+          {
+            "class": "max-w-4xl",
+            "properties": "max-width: 90rem;",
+            "value": ""
+          },
+          {
+            "class": "max-w-5xl",
+            "properties": "max-width: 100rem;",
+            "value": ""
+          },
+          {
+            "class": "max-w-full",
+            "properties": "max-width: 100%;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Height",
+        "url": "https://tailwindcss-v0.netlify.app//docs/height",
+        "description": "Utilities for setting the height of an element",
+        "table": [
+          {
+            "class": "h-1",
+            "properties": "height: 0.25rem;",
+            "value": ""
+          },
+          {
+            "class": "h-2",
+            "properties": "height: 0.5rem;",
+            "value": ""
+          },
+          {
+            "class": "h-3",
+            "properties": "height: 0.75rem;",
+            "value": ""
+          },
+          {
+            "class": "h-4",
+            "properties": "height: 1rem;",
+            "value": ""
+          },
+          {
+            "class": "h-6",
+            "properties": "height: 1.5rem;",
+            "value": ""
+          },
+          {
+            "class": "h-8",
+            "properties": "height: 2rem;",
+            "value": ""
+          },
+          {
+            "class": "h-10",
+            "properties": "height: 2.5rem;",
+            "value": ""
+          },
+          {
+            "class": "h-12",
+            "properties": "height: 3rem;",
+            "value": ""
+          },
+          {
+            "class": "h-16",
+            "properties": "height: 4rem;",
+            "value": ""
+          },
+          {
+            "class": "h-24",
+            "properties": "height: 6rem;",
+            "value": ""
+          },
+          {
+            "class": "h-32",
+            "properties": "height: 8rem;",
+            "value": ""
+          },
+          {
+            "class": "h-48",
+            "properties": "height: 12rem;",
+            "value": ""
+          },
+          {
+            "class": "h-64",
+            "properties": "height: 16rem;",
+            "value": ""
+          },
+          {
+            "class": "h-auto",
+            "properties": "height: auto;",
+            "value": ""
+          },
+          {
+            "class": "h-px",
+            "properties": "height: 1px;",
+            "value": ""
+          },
+          {
+            "class": "h-full",
+            "properties": "height: 100%;",
+            "value": ""
+          },
+          {
+            "class": "h-screen",
+            "properties": "height: 100vh;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Min-Height",
+        "url": "https://tailwindcss-v0.netlify.app//docs/min-height",
+        "description": "Utilities for setting the minimum height of an element",
+        "table": [
+          {
+            "class": "min-h-0",
+            "properties": "min-height: 0;",
+            "value": ""
+          },
+          {
+            "class": "min-h-full",
+            "properties": "min-height: 100%;",
+            "value": ""
+          },
+          {
+            "class": "min-h-screen",
+            "properties": "min-height: 100vh;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Max-Height",
+        "url": "https://tailwindcss-v0.netlify.app//docs/max-height",
+        "description": "Utilities for setting the maximum height of an element",
+        "table": [
+          {
+            "class": "max-h-full",
+            "properties": "max-height: 100%;",
+            "value": ""
+          },
+          {
+            "class": "max-h-screen",
+            "properties": "max-height: 100vh;",
+            "value": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Tables",
+    "children": [
+      {
+        "title": "Border Collapse",
+        "url": "https://tailwindcss-v0.netlify.app//docs/border-collapse",
+        "description": "Utilities for controlling whether table borders should collapse or be separated.",
+        "table": [
+          {
+            "class": "border-collapse",
+            "properties": "border-collapse: collapse;",
+            "value": ""
+          },
+          {
+            "class": "border-separate",
+            "properties": "border-collapse: separate;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Table Layout",
+        "url": "https://tailwindcss-v0.netlify.app//docs/table-layout",
+        "description": "Utilities for controlling the table layout algorithm.",
+        "table": [
+          {
+            "class": "table-auto",
+            "properties": "table-layout: auto;",
+            "value": ""
+          },
+          {
+            "class": "table-fixed",
+            "properties": "table-layout: fixed;",
+            "value": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Effects",
+    "children": [
+      {
+        "title": "Box Shadow",
+        "url": "https://tailwindcss-v0.netlify.app//docs/shadows",
+        "description": "Utilities for controlling the box shadow of an element.",
+        "table": [
+          {
+            "class": "shadow",
+            "properties": "box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);",
+            "value": ""
+          },
+          {
+            "class": "shadow-md",
+            "properties": "box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12),\n            0 2px 4px 0 rgba(0,0,0,0.08);",
+            "value": ""
+          },
+          {
+            "class": "shadow-lg",
+            "properties": "box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),\n            0 5px 15px 0 rgba(0,0,0,0.08);",
+            "value": ""
+          },
+          {
+            "class": "shadow-inner",
+            "properties": "box-shadow: inset 0 2px 4px 0 rgba(0,0,0,0.06);",
+            "value": ""
+          },
+          {
+            "class": "shadow-outline",
+            "properties": "box-shadow: 0 0 0 3px rgba(52,144,220,0.5);",
+            "value": ""
+          },
+          {
+            "class": "shadow-none",
+            "properties": "box-shadow: none;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Opacity",
+        "url": "https://tailwindcss-v0.netlify.app//docs/opacity",
+        "description": "Utilities for controlling the opacity of an element.",
+        "table": [
+          {
+            "class": "opacity-100",
+            "properties": "opacity: 1;",
+            "value": ""
+          },
+          {
+            "class": "opacity-75",
+            "properties": "opacity: .75;",
+            "value": ""
+          },
+          {
+            "class": "opacity-50",
+            "properties": "opacity: .5;",
+            "value": ""
+          },
+          {
+            "class": "opacity-25",
+            "properties": "opacity: .25;",
+            "value": ""
+          },
+          {
+            "class": "opacity-0",
+            "properties": "opacity: 0;",
+            "value": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Interactivity",
+    "children": [
+      {
+        "title": "Appearance",
+        "url": "https://tailwindcss-v0.netlify.app//docs/appearance",
+        "description": "Utilities for suppressing native form control styling.",
+        "table": [
+          {
+            "class": "appearance-none",
+            "properties": "appearance: none;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Cursor",
+        "url": "https://tailwindcss-v0.netlify.app//docs/cursor",
+        "description": "Utilities for controlling the cursor style when hovering over an element.",
+        "table": [
+          {
+            "class": "cursor-auto",
+            "properties": "cursor: auto;",
+            "value": ""
+          },
+          {
+            "class": "cursor-default",
+            "properties": "cursor: default;",
+            "value": ""
+          },
+          {
+            "class": "cursor-pointer",
+            "properties": "cursor: pointer;",
+            "value": ""
+          },
+          {
+            "class": "cursor-wait",
+            "properties": "cursor: wait;",
+            "value": ""
+          },
+          {
+            "class": "cursor-move",
+            "properties": "cursor: move;",
+            "value": ""
+          },
+          {
+            "class": "cursor-not-allowed",
+            "properties": "cursor: not-allowed;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Outline",
+        "url": "https://tailwindcss-v0.netlify.app//docs/outline",
+        "description": "Utilities for controlling an element's outline.",
+        "table": [
+          {
+            "class": "outline-none",
+            "properties": "outline: 0;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Pointer Events",
+        "url": "https://tailwindcss-v0.netlify.app//docs/pointer-events",
+        "description": "Utilities for controlling whether an element responds to pointer events.",
+        "table": [
+          {
+            "class": "pointer-events-none",
+            "properties": "pointer-events: none;",
+            "value": ""
+          },
+          {
+            "class": "pointer-events-auto",
+            "properties": "pointer-events: auto;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "Resize",
+        "url": "https://tailwindcss-v0.netlify.app//docs/resize",
+        "description": "Utilities for controlling how an element can be resized.",
+        "table": [
+          {
+            "class": "resize-none",
+            "properties": "resize: none;",
+            "value": ""
+          },
+          {
+            "class": "resize",
+            "properties": "resize: both;",
+            "value": ""
+          },
+          {
+            "class": "resize-y",
+            "properties": "resize: vertical;",
+            "value": ""
+          },
+          {
+            "class": "resize-x",
+            "properties": "resize: horizontal;",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "User Select",
+        "url": "https://tailwindcss-v0.netlify.app//docs/user-select",
+        "description": "Utilities for controlling whether the user can select text in an element.",
+        "table": [
+          {
+            "class": "select-none",
+            "properties": "user-select: none;",
+            "value": ""
+          },
+          {
+            "class": "select-text",
+            "properties": "user-select: text;",
+            "value": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "SVG",
+    "children": [
+      {
+        "title": "Fill & Stroke",
+        "url": "https://tailwindcss-v0.netlify.app//docs/svg",
+        "description": "Utilities for styling SVG elements.",
+        "table": [
+          {
+            "class": "fill-current",
+            "properties": "fill: currentColor;",
+            "value": ""
+          },
+          {
+            "class": "stroke-current",
+            "properties": "stroke: currentColor;",
+            "value": ""
+          }
+        ]
+      }
+    ]
+  }
+]

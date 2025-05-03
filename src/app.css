@@ -1,0 +1,22 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer utilities {
+    .scrollbar::-webkit-scrollbar {
+      width: 3px;
+      /* height: 20%; */
+    }
+  
+    .scrollbar::-webkit-scrollbar-track {
+      border-radius: 100vh;
+      background: #615e5e;
+    }
+  
+    .scrollbar::-webkit-scrollbar-thumb {
+      background: #ebcaca;
+      border-radius: 100vh;
+      /* border: 1px solid #d3d3d3; */
+    }
+  }
+  
