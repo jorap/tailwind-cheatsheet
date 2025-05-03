@@ -49,7 +49,6 @@
         <ClassesTable {b} bind:copied bind:toastVisible />
     </div>
 </details>
-
 <style>
     details > summary {
         list-style: none;
@@ -58,3 +57,4 @@
         display: none;
     }
 </style>
+

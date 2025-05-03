@@ -37,7 +37,7 @@
     <div class="hidden md:flex justify-between items-center">
         <div class="font-bold site-title">
             <span class="text-sky-500 text-lg lg:text-xl">
-                Tailwind CSS <span class="text-white">Cheatsheet</span>
+                Tailwind CSS <span class="text-black dark:text-white">Cheatsheet</span>
                 <select
                     class="bg-transparent border border-sky-500/40 rounded-full text-sm outline-none"
                     bind:value={selected_v}
