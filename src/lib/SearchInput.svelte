@@ -39,6 +39,27 @@
             window.removeEventListener("keyup", handleKeyUp);
         }
     });
+
+    function searchInContent(el: Element, searchText: string): boolean {
+        // Search in headings
+        const h2Text = el.querySelector('h2')?.textContent || '';
+        const h3Text = el.querySelector('h3')?.textContent || '';
+        
+        // Search in description text
+        const descriptionText = el.querySelector('p.text-sm.italic')?.textContent || '';
+        
+        // Search in class names and CSS properties
+        const classNames = Array.from(el.querySelectorAll('td:first-child code'))
+            .map(code => code.textContent || '')
+            .join(' ');
+        
+        const cssProperties = Array.from(el.querySelectorAll('td:nth-child(2) code'))
+            .map(code => code.textContent || '')
+            .join(' ');
+            
+        const combinedText = (h2Text + ' ' + h3Text + ' ' + descriptionText + ' ' + classNames + ' ' + cssProperties).toLowerCase();
+        return combinedText.includes(searchText.toLowerCase());
+    }
 </script>
 
 <div class="w-full relative">
@@ -63,16 +84,14 @@
             }
             else if (query.length >= 2) {
                 details.forEach((el) => {
-                    const h2Text = el.querySelector('h2')?el.querySelector('h2').textContent:'';
-                    const h3Text = el.querySelector('h3')?el.querySelector('h3').textContent:'';
-                    // const tdText = el.querySelectorAll('td')?el.querySelectorAll('td').textContent:'';
-
-                    (h2Text+h3Text).toLowerCase().includes(query.toLowerCase())
+                    // Search in all content
+                    searchInContent(el, query)
                         ? el.classList.remove("hidden")
                         : el.classList.add("hidden");
+                        
                     // Open only the ones that does not have the word "Color"
                     el.querySelector('h3')?.textContent?.includes('Color') ? el.open = false : el.open = true;
-            });
+                });
             }
         }}
     />
