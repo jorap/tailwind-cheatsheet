@@ -37,8 +37,11 @@
 </svelte:head>
     
 <main class="max-w-screen-2xl mx-auto p-4">
-    <Masonry gap={20}>
+    <div class="mb-6">
         <Header {query} bind:selected_v bind:jsondata />
+    </div>
+    
+    <Masonry gap={20}>
         {#each jsondata as a}
             <section class="border border-black/20 bg-gray-100 dark:bg-gray-900 rounded-md break-inside-avoid">
                 <h2 class="font-bold p-2 px-4">{a.title}</h2>
