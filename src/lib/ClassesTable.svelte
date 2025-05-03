@@ -17,13 +17,13 @@
                         }, 1500);
                     }}
                 >
-                    <td class=" pt-1 pb-1 text-sky-500"
+                    <td class="pt-1 pb-1 text-sky-700 dark:text-sky-300"
                         ><code>.{c.class}</code></td
                     >
-                    <td class=" p-1 text-sky-500"
+                    <td class="p-1 text-sky-700 dark:text-sky-300"
                         ><code>{c.properties}</code></td
                     >
-                    <td class=" pt-1 pb-1 pr-1 italic">{c.value}</td>
+                    <td class="pt-1 pb-1 pr-1 italic">{c.value}</td>
                 </tr>
             {/each}
         </tbody>

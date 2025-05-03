@@ -36,10 +36,10 @@
     <!-- Desktop layout (default) -->
     <div class="hidden md:flex justify-between items-center">
         <div class="font-bold site-title">
-            <span class="text-sky-500 text-lg lg:text-xl">
+            <span class="text-sky-700 dark:text-sky-300 text-lg lg:text-xl">
                 Tailwind CSS <span class="text-black dark:text-white">Cheatsheet</span>
                 <select
-                    class="bg-transparent border border-sky-500/40 rounded-full text-sm outline-none"
+                    class="bg-transparent border border-sky-700 dark:border-sky-300 rounded-full text-sm outline-none"
                     bind:value={selected_v}
                     onchange={loadData}
                 >
@@ -54,7 +54,7 @@
             <SearchInput {query} />
             <button
                 aria-label="Expand/Collapse"
-                class="bg-sky-500 px-4 rounded-md"
+                class="bg-sky-700 dark:bg-sky-300 text-white dark:text-black px-4 rounded-md"
                 onclick={() => {
                     if (expanded) {
                         document
@@ -124,10 +124,10 @@
     <div class="flex flex-col md:hidden">
         <div class="flex justify-between items-center mb-3 mt-2">
             <div class="font-bold site-title">
-                <span class="text-sky-500 text-lg">
+                <span class="text-sky-700 dark:text-sky-300 text-lg">
                     Tailwind CSS <span class="text-black dark:text-white">Cheatsheet</span>
                     <select
-                        class="bg-transparent border border-sky-500/40 rounded-full text-sm outline-none ml-1"
+                        class="bg-transparent border border-sky-700 dark:border-sky-300 rounded-full text-sm outline-none ml-1"
                         bind:value={selected_v}
                         onchange={loadData}
                     >
@@ -165,7 +165,7 @@
             <SearchInput {query} />
             <button
                 aria-label="Expand/Collapse"
-                class="bg-sky-500 px-4 rounded-md"
+                class="bg-sky-700 dark:bg-sky-300 text-white dark:text-black px-4 rounded-md"
                 onclick={() => {
                     if (expanded) {
                         document

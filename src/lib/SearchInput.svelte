@@ -71,7 +71,7 @@
         }}
         onblur={() => kbd.classList.replace("opacity-0", "opacity-100")}
         type="text"
-        class="w-full bg-transparent focus:outline-none text-sm border-2 border-sky-500 px-2 py-2 rounded-md flex justify-center items-center gap-2"
+        class="w-full bg-transparent focus:outline-none text-sm border-2 border-sky-700 dark:border-sky-300 px-2 py-2 rounded-md flex justify-center items-center gap-2"
         placeholder="Search..."
         bind:value={query}
         oninput={() => {
@@ -99,7 +99,7 @@
     <kbd
         bind:this={kbd}
         transition:fade
-        class="absolute top-1/2 right-2 -translate-y-1/2 bg-sky-500 text-white px-1 rounded text-xs opacity-100 transition"
+        class="absolute top-1/2 right-2 -translate-y-1/2 bg-sky-800 dark:bg-sky-300 dark:text-gray-900 text-white px-1 rounded text-xs opacity-100 transition"
         >⌘ K</kbd
     >
 </div>
