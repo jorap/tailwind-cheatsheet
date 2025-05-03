@@ -38,7 +38,9 @@
         <div class="font-bold site-title">
             <span class="text-sky-700 dark:text-sky-300 text-lg lg:text-xl">
                 Tailwind CSS <span class="text-black dark:text-white">Cheatsheet</span>
+                <label for="version-select-desktop" class="sr-only">Select Tailwind version</label>
                 <select
+                    id="version-select-desktop"
                     class="bg-transparent border border-sky-700 dark:border-sky-300 rounded-full text-sm outline-none"
                     bind:value={selected_v}
                     onchange={loadData}
@@ -126,7 +128,9 @@
             <div class="font-bold site-title">
                 <span class="text-sky-700 dark:text-sky-300 text-lg">
                     Tailwind CSS <span class="text-black dark:text-white">Cheatsheet</span>
+                    <label for="version-select-mobile" class="sr-only">Select Tailwind version</label>
                     <select
+                        id="version-select-mobile"
                         class="bg-transparent border border-sky-700 dark:border-sky-300 rounded-full text-sm outline-none ml-1"
                         bind:value={selected_v}
                         onchange={loadData}
