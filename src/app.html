@@ -13,10 +13,8 @@
 				(!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
 			) {
 				document.documentElement.classList.add('dark');
-				darkMode = true;
 			} else {
 				document.documentElement.classList.remove('dark');
-				darkMode = false;
 			}
 		</script>
 		<div style="display: contents">%sveltekit.body%</div>
