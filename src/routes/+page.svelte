@@ -37,7 +37,7 @@
 </svelte:head>
     
 <main class="max-w-screen-2xl mx-auto p-4">
-    <div class="mb-6">
+    <div class="mb-3">
         <Header {query} bind:selected_v bind:jsondata />
     </div>
     

@@ -13,22 +13,32 @@
 
     async function loadData() {
         switch (selected_v) {
-            case tw_versions[0]: jsondata = v4; break;
-            case tw_versions[1]: jsondata = v3; break;
-            case tw_versions[2]: jsondata = v2; break;
-            case tw_versions[3]: jsondata = v1; break;
-            case tw_versions[4]: jsondata = v0; break;
+            case tw_versions[0]:
+                jsondata = v4;
+                break;
+            case tw_versions[1]:
+                jsondata = v3;
+                break;
+            case tw_versions[2]:
+                jsondata = v2;
+                break;
+            case tw_versions[3]:
+                jsondata = v1;
+                break;
+            case tw_versions[4]:
+                jsondata = v0;
+                break;
         }
     }
 </script>
 
 <header class="px-4">
-    <div class="flex justify-between">
+    <div class="flex justify-between items-center">
         <div class="font-bold">
-            <span class="text-sky-500 text-sm ">
-                Tailwind CSS
+            <span class="text-sky-500 text-lg lg:text-xl">
+                Tailwind CSS <span class="text-white">Cheatsheet</span>
                 <select
-                    class="bg-transparent border border-sky-500/40 rounded-full text-xs outline-none"
+                    class="bg-transparent border border-sky-500/40 rounded-full text-sm outline-none"
                     bind:value={selected_v}
                     onchange={loadData}
                 >
@@ -37,34 +47,8 @@
                     {/each}
                 </select>
             </span>
-            <br />
-            <span class="text-xl lg:text-3xl">Cheatsheet</span>
         </div>
         <div class="flex gap-2">
-            <a href="https://ko-fi.com/pk504b" target="_blank" aria-label="Ko-fi" class="sm:hidden md:inline-block">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                    <path fill="currentColor" fill-opacity="0" d="M17 14v4c0 1.66 -1.34 3 -3 3h-6c-1.66 0 -3 -1.34 -3 -3v-4Z">
-                        <animate fill="freeze" attributeName="fill-opacity" begin="0.8s" dur="0.15s" values="0;0.3" />
-                    </path>
-                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                        <path stroke-dasharray="48" stroke-dashoffset="48" d="M17 9v9c0 1.66 -1.34 3 -3 3h-6c-1.66 0 -3 -1.34 -3 -3v-9Z">
-                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="48;0" />
-                        </path>
-                        <path stroke-dasharray="14" stroke-dashoffset="14" d="M17 9h3c0.55 0 1 0.45 1 1v3c0 0.55 -0.45 1 -1 1h-3">
-                            <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.6s" dur="0.2s" values="14;0" />
-                        </path>
-                        <mask id="lineMdCoffeeHalfEmptyTwotoneLoop0">
-                            <path stroke="#fff" d="M8 0c0 2-2 2-2 4s2 2 2 4-2 2-2 4 2 2 2 4M12 0c0 2-2 2-2 4s2 2 2 4-2 2-2 4 2 2 2 4M16 0c0 2-2 2-2 4s2 2 2 4-2 2-2 4 2 2 2 4">
-                                <animateMotion calcMode="linear" dur="3s" path="M0 0v-8" repeatCount="indefinite" />
-                            </path>
-                        </mask>
-                        <rect width="24" height="0" y="7" fill="currentColor" mask="url(#lineMdCoffeeHalfEmptyTwotoneLoop0)">
-                            <animate fill="freeze" attributeName="y" begin="0.8s" dur="0.6s" values="7;2" />
-                            <animate fill="freeze" attributeName="height" begin="0.8s" dur="0.6s" values="0;5" />
-                        </rect>
-                    </g>
-                </svg>
-            </a>
             <a
                 class=""
                 href="https://github.com/pk504b/tailwind-cheatsheet"
@@ -87,11 +71,11 @@
         </div>
     </div>
 
-    <div class="flex gap-2 my-8">
+    <div class="flex gap-2 my-4">
         <SearchInput {query} />
         <button
             aria-label="Expand/Collapse"
-            class="bg-sky-500 px-6 rounded-md"
+            class="bg-sky-500 px-4 rounded-md"
             onclick={() => {
                 if (expanded) {
                     document
