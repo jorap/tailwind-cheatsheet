@@ -33398,36 +33398,6 @@
             "class": "border-separate",
             "properties": "border-collapse: separate;",
             "value": ""
-          },
-          {
-            "class": "Indiana",
-            "properties": "Indianapolis",
-            "value": ""
-          },
-          {
-            "class": "Ohio",
-            "properties": "Columbus",
-            "value": ""
-          },
-          {
-            "class": "Michigan",
-            "properties": "Detroit",
-            "value": ""
-          },
-          {
-            "class": "Indiana",
-            "properties": "Indianapolis",
-            "value": ""
-          },
-          {
-            "class": "Ohio",
-            "properties": "Columbus",
-            "value": ""
-          },
-          {
-            "class": "Michigan",
-            "properties": "Detroit",
-            "value": ""
           }
         ]
       },
@@ -33480,21 +33450,6 @@
             "class": "border-spacing-y-[<value>]",
             "properties": "border-spacing: var(--tw-border-spacing-x) <value>;",
             "value": ""
-          },
-          {
-            "class": "Indiana",
-            "properties": "Indianapolis",
-            "value": ""
-          },
-          {
-            "class": "Ohio",
-            "properties": "Columbus",
-            "value": ""
-          },
-          {
-            "class": "Michigan",
-            "properties": "Detroit",
-            "value": ""
           }
         ]
       },
@@ -33511,36 +33466,6 @@
           {
             "class": "table-fixed",
             "properties": "table-layout: fixed;",
-            "value": ""
-          },
-          {
-            "class": "The Sliding Mr. Bones (Next Stop, Pottersville)",
-            "properties": "Malcolm Lockyer",
-            "value": ""
-          },
-          {
-            "class": "Witchy Woman",
-            "properties": "The Eagles",
-            "value": ""
-          },
-          {
-            "class": "Shining Star",
-            "properties": "Earth, Wind, and Fire",
-            "value": ""
-          },
-          {
-            "class": "The Sliding Mr. Bones (Next Stop, Pottersville)",
-            "properties": "Malcolm Lockyer",
-            "value": ""
-          },
-          {
-            "class": "Witchy Woman",
-            "properties": "The Eagles",
-            "value": ""
-          },
-          {
-            "class": "Shining Star",
-            "properties": "Earth, Wind, and Fire",
             "value": ""
           }
         ]
